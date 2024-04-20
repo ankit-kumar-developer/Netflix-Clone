@@ -93,9 +93,10 @@ const Login = () => {
     return (
         <>
             <Header />
-            <div className='absolute overflow-hidden
-            md:overflow-hidden'>
-                <img src='https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg' alt='background-image' className='h-[100vh] w-[100vw]' />
+            <div className='absolute overflow-hidden'>
+                <img src='https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg' alt='background-image' className='h-[100vh] w-[100vw] 
+                lmb:h-[100vh] lmb:w-[100%] lmb:bg-contain lmb:bg-center
+                ' />
             </div>
 
             <form onSubmit={getInputData} className='absolute flex-col  p-10 my-36 left-0 right-0 mx-auto items-center justify-center bg-black bg-opacity-90
