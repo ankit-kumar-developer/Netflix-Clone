@@ -49,7 +49,7 @@ const Login = () => {
                 navigate("/browse")
 
             } catch (error) {
-                toast.error(error.response.data.message)
+                toast.error("something went wrong")
                 console.log(error);
             } finally {
                 dispatch(setLoading(false))
@@ -75,7 +75,7 @@ const Login = () => {
                 setIsLogin(true)
 
             } catch (error) {
-                toast.error(error.response.data.message)
+                toast.error("something went wrong")
                 console.log(error);
             } finally {
                 dispatch(setLoading(false))
